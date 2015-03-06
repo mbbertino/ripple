@@ -6,6 +6,12 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('mailer', function() {
+    this.route('front', { path: '/' });
+    this.route('back');
+    this.route('area');
+    this.route('deliver');
+  });
 });
 
 export default Router;
