@@ -3,6 +3,9 @@
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
+app.import('bower_components/dropzone/dist/basic.css');
+app.import('bower_components/dropzone/dist/dropzone.css');
+app.import('bower_components/dropzone/dist/dropzone.js');
 
 // Use `app.import` to add additional libraries to the generated
 // output files.
