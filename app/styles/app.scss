@@ -1,4 +1,25 @@
 @import "bourbon"; // http://bourbon.io/docs/
 @import "neat"; // http://thoughtbot.github.io/neat-docs/latest/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700,900);
+
+@import "variables";
 @import "components/dropzone_overrides";
 @import "components/dropzone";
+@import "header";
+@import "footer";
+@import "mailer_form";
+
+.main {
+  @include outer-container;
+}
+
+body {
+  margin: 0px;
+  background: $base-background;
+  font-family: 'Lato', sans-serif;
+}
+.navigate {
+  @include span-columns(12);
+  text-align: center;
+  color: white;
+}

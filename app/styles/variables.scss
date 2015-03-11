@@ -1,0 +1,38 @@
+// $base-background: #1BBC9B; // torquise
+$base-background: #87D37C; // green
+// $base-background: #2ABB9B;
+$base-border-radius: 3px !default;
+$base-accent-color: #477DCA !default;
+
+// font
+$base-font-color: #fff !default;
+
+// greys
+$dark-gray: #333333 !default;
+$light-gray: #ECF0F1 !default;
+
+// media stuff
+$medium-screen: em(640) !default;
+$large-screen: em(860) !default;
+
+
+// spacing, margins etc
+$base-spacing: 1.5em !default;
+
+// footer
+$footer-background: white;
+$footer-link-color: transparentize($base-font-color, 0.6);
+$footer-disclaimer-color: transparentize($base-font-color, 0.6);
+
+// header
+$centered-navigation-padding: 1em;
+$centered-navigation-logo-height: 2em;
+$centered-navigation-background: transparent;
+$centered-navigation-color: transparentize($base-font-color, 0.3);
+$centered-navigation-color-hover: $base-font-color;
+$centered-navigation-height: 60px;
+$centered-navigation-item-padding: 1em;
+$centered-navigation-submenu-padding: 1em;
+$centered-navigation-submenu-width: 12em;
+$centered-navigation-item-nudge: 3.2em;
+$horizontal-bar-mode: $large-screen;
