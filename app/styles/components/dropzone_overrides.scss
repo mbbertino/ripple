@@ -1,11 +1,16 @@
 .dropzone {
-  border: 2px dashed rgba(0, 0, 0, 0.3)
+  background: white;
+  border-radius: none;
+  min-height: 450px;
+  border: none;
+  outline: 5px solid $light-gray;
 }
 .dropzone .dz-preview {
   width: auto;
 }
 
 .dropzone .dz-preview .dz-image {
+  border-radius: 0px;
   width: auto;
   height: auto;
 }

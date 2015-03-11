@@ -8,8 +8,8 @@ export default Ember.Component.extend({
 
     // Instantiation of the dropzone container
     this.$('#dropzone-container').dropzone({
-      thumbnailWidth: 945,
-      thumbnailHeight: 525,
+      thumbnailWidth: 675,
+      thumbnailHeight: 375,
       url: "/file/post",
       // clickable: false
 

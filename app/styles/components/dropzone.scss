@@ -1,3 +1,4 @@
 .dropzone {
+  @include span-columns(12);
   text-align: center;
 }
