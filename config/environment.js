@@ -19,12 +19,12 @@ module.exports = function(environment) {
     },
     contentSecurityPolicy: {
       'default-src': "'none'",
-      'script-src': "'self' 'unsafe-inline' 'unsafe-eval'",
-      'font-src': "'self'",
+      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' http://maps.googleapis.com http://maps.gstatic.com",
+      'font-src': "'self' http://fonts.gstatic.com",
       'connect-src': "'self'",
-      'img-src': "'self'",
+      'img-src': "'self' https://raw.githubusercontent.com",
       'report-uri':"'localhost'",
-      'style-src': "'self' 'unsafe-inline'",
+      'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
       'frame-src': "'none'"
     }
   };

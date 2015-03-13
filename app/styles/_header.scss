@@ -1,12 +1,10 @@
 .centered-navigation {
   ///////////////////////////////////////////////////////////////////////////////////
-  // $base-border-radius: 3px !default;
-  // $dark-gray: #333 !default;
-  // $large-screen: em(860) !default;
-  // $base-font-color: white !default;
+  $base-border-radius: 3px !default;
+  $dark-gray: #333 !default;
+  $large-screen: em(860) !default;
+  $base-font-color: white !default;
   //////////////////////////////////////////////////////////////////////////////////
-
-
 
   background-color: $centered-navigation-background;
   border-bottom: 1px solid darken($centered-navigation-background, 6%);

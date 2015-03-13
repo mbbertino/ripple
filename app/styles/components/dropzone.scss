@@ -1,4 +1,11 @@
 .dropzone {
   @include span-columns(12);
   text-align: center;
+  outline: 4px solid white;
+  outline: 4px solid #bad3e4;
+  background: #bad3e4;
+  background: white;
+  color: #bad3e4;
+  text-transform: uppercase;
+  font-weight: 700;
 }
