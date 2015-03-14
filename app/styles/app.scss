@@ -15,11 +15,26 @@
 
 body {
   margin: 0px;
-  background: $base-background;
+  background: $base-background;;
+  // background: #438AB8;
+  // Ocean green 4DAF7C
   font-family: 'Lato', sans-serif;
 }
 .navigate {
   @include span-columns(12);
   text-align: center;
+  color: white;
+}
+
+.cta{
+  @include button($base-accent-color);
+}
+.alt{
+  @include button($base-main-color);
+}
+.btn {
+  background-image: none;
+  text-transform: uppercase;
+  text-decoration: none;
   color: white;
 }

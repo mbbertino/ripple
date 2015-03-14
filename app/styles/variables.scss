@@ -1,9 +1,13 @@
 // $base-background: #1BBC9B; // torquise
 // $base-background: #87D37C; // green
 // $base-background: #2ABB9B;
-$base-background: #2574A9; // green
 $base-border-radius: 3px !default;
-$base-accent-color: #477DCA !default;
+// $base-accent-color: #477DCA !default;
+
+$base-background: #F2F2F2;
+$base-main-color: #54A1BF;
+$base-accent-color: #F2D680;
+
 
 // font
 $base-font-color: #fff !default;
@@ -29,8 +33,8 @@ $footer-disclaimer-color: transparentize($base-font-color, 0.6);
 $centered-navigation-padding: 1em;
 $centered-navigation-logo-height: 2em;
 $centered-navigation-background: transparent;
-$centered-navigation-color: transparentize($base-font-color, 0.3);
-$centered-navigation-color-hover: $base-font-color;
+$centered-navigation-color: transparentize($base-main-color, 0.3);
+$centered-navigation-color-hover: $base-main-color;
 $centered-navigation-height: 60px;
 $centered-navigation-item-padding: 1em;
 $centered-navigation-submenu-padding: 1em;
