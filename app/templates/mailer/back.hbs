@@ -1,2 +1,8 @@
 <span class="big-title">Upload the back of your mailer</span>
-{{c-dropzone}}
+<div class="outer-dropzone-container">
+  {{c-dropzone}}
+</div>
+<div class="outercontainer">
+  {{#link-to 'mailer.front' classNames="alt btn"}}back{{/link-to}}
+  {{#link-to 'mailer.area' classNames="cta btn"}}next{{/link-to}}
+</div>

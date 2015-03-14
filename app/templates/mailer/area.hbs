@@ -4,4 +4,7 @@
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 </p>
-{{outlet}}
+<div class="outercontainer">
+  {{#link-to 'mailer.back' classNames="alt btn"}}back{{/link-to}}
+  {{#link-to 'mailer.deliver' classNames="cta btn"}}next{{/link-to}}
+</div>
