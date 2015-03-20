@@ -1,0 +1,7 @@
+.mapbox {
+  margin-bottom: 20px;
+  outline: 3px solid $base-main-color;
+  @include span-columns(12);
+  height: 450px;
+
+}

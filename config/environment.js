@@ -21,8 +21,8 @@ module.exports = function(environment) {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-inline' 'unsafe-eval' http://maps.googleapis.com http://maps.gstatic.com",
       'font-src': "'self' http://fonts.gstatic.com",
-      'connect-src': "'self'",
-      'img-src': "'self' https://raw.githubusercontent.com",
+      'connect-src': "'self' http://*.tiles.mapbox.com",
+      'img-src': "'self' https://raw.githubusercontent.com http://*.tiles.mapbox.com ",
       'report-uri':"'localhost'",
       'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
       'frame-src': "'none'"
